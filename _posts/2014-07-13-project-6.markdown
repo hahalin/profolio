@@ -4,7 +4,7 @@ subtitle: ASP.NET MVC
 layout: default
 modal-id: 6
 date: 2016-03-1
-img: roundicons.png
+img: A100201.png
 thumbnail: A100201.png
 alt: image-alt
 project-date: 2016 1 
