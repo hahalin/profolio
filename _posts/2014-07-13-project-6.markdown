@@ -1,14 +1,18 @@
 ---
-title: 提供給予APP整合的訂購、付款流程的網頁
-subtitle: ASP.NET MVC
+title: 購物車流程功能頁面
+subtitle: 提供給予APP整合的訂購、付款流程的網頁
 layout: default
 modal-id: 6
 date: 2016-03-1
 img: A100201.png
 thumbnail: A100201.png
 alt: image-alt
-project-date: 2016 1 
+project-date: 2016/1 
 client: 某電商公司
+lang: [C#]
+server: ASP.NET MVC5
+frontend: JQuery
+ide: VS2013
 category: Web Development
 description: 客戶提供API串接，由我方客製開發購物車內商品數量、運費選擇、點數扣款以及付款方式各項功能頁面，提供給予手機APP整合，包含ios與android版本。
 
