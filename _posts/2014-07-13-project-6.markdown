@@ -13,7 +13,7 @@ lang: [C#]
 server: ASP.NET MVC5
 frontend: JQuery
 ide: VS2013
-category: Web Development
+category: ASP.NET網站
 description: 客戶提供API串接，由我方客製開發購物車內商品數量、運費選擇、點數扣款以及付款方式各項功能頁面，提供給予手機APP整合，包含ios與android版本。
 
 ---
