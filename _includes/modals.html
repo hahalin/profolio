@@ -14,7 +14,22 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                           
+                           
+                          
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" />
+
+                            {% if post.youtube %}
+
+                                <div class="embed-responsive embed-responsive-16by9">
+                                  <iframe class="embed-responsive-item" width="560" height="315"
+                                    src="https://www.youtube.com/embed/{{ post.youtube }}" frameborder="0"
+                                    allowfullscreen=""></iframe>
+                                </div>
+                            {%else%}
+                                
+                            {% endif %}
+
                             <p style="text-align:left;" class="well">{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 
@@ -28,9 +43,13 @@
                                 </li>
                                 <li>相關技術:
                                     
-                                    <span class="label label-default">{{ post.lang }}</span>
-                                     <span class="label label-info">{{ post.server }}</span>
-                                     <span class="label label-success">{{ post.frontend }}</span>
+                                    <span class="label label-danger">{{ post.lang }}</span>
+                                    <span class="label label-info">{{ post.server }}</span>
+                                    {% if post.db %}
+                                        <span class="label label-default">{{ post.db }}</span>
+                                    {% endif %}
+                                    
+                                    <span class="label label-success">{{ post.frontend }}</span>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

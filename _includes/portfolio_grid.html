@@ -10,8 +10,8 @@
             <div class="row">
             {% for post in site.posts %}
                
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                <div class="col-md-4 col-sm-6 portfolio-item" style="height:360px;background-color_:white;">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" style="height:270px;border:1px solid #ccc;">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -22,8 +22,12 @@
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
                         <p>
-                            <span class="label label-default">{{ post.lang }}</span>
+                            <span class="label label-danger">{{ post.lang }}</span>
                             <span class="label label-info">{{ post.server }}</span>
+                            {% if post.db %}
+                                <span class="label label-default">{{ post.db }}</span>
+                            {% endif %}
+                            
                             <span class="label label-success">{{ post.frontend }}</span>
                         </p>
                        

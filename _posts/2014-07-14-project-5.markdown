@@ -1,15 +1,20 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: 女鞋選定配件模組
+subtitle: 支援一新創公司的提供類似紙娃娃線上配件即時組合模組
 layout: default
 modal-id: 5
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+date: 2016-03-02
+img: A300102.png
+thumbnail: A300102.png
+youtube: xojT3sKpD1Q
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: 2008年
+client: 某新創公司
+lang: PHP
+server: Apache
+db: MySQL
+frontend: JQuery 
+category: AMP網站
+description: 支援一新創公司的提供類似紙娃娃功能，的一個女鞋線上配件即時組合模組，使用PHP與MYSQL作為Backend，將資料庫內配件與圖檔透過JQuery設計前端互動效果，這個案例還有錄影下來作為紀念，當時剛接觸JQuery與AJAX，做出這功能得還蠻有成就感的。
 
 ---

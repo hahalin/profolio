@@ -12,6 +12,9 @@ color:
   secondary: fec503  
   secondary-dark: 333
 
+gems: [Liquid]
+ # This will require each of these gems automatically.
+
 # Team names, titles and social links
 people:
 - name: Kay Garland
