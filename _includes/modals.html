@@ -16,8 +16,9 @@
                             <hr class="star-primary">
                            
                            
-                          
+                            {% if post.img %}
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}" />
+                            {% endif  %}
 
                             {% if post.youtube %}
 
@@ -42,14 +43,16 @@
                                     </strong>
                                 </li>
                                 <li>相關技術:
-                                    
                                     <span class="label label-danger">{{ post.lang }}</span>
-                                    <span class="label label-info">{{ post.server }}</span>
+                                    {% if post.server %}
+                                        <span class="label label-info">{{ post.server }}</span>
+                                    {% endif %}
                                     {% if post.db %}
                                         <span class="label label-default">{{ post.db }}</span>
                                     {% endif %}
-                                    
-                                    <span class="label label-success">{{ post.frontend }}</span>
+                                    {% if post.frontend %}
+                                        <span class="label label-success">{{ post.frontend }}</span>
+                                    {% endif %}
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

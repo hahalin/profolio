@@ -1,15 +1,21 @@
 ---
-title: Escape
-subtitle: Website Design
+title: 房地產租售物件管理系統
+subtitle: Web介面多國語系
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+date: 2016-03-03
+img: 
+thumbnail: A300201.png
+youtube: BOQKyMCyT3Y
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date:  2012
+client: 某地產大亨
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+lang: [PHP]
+server: AMP
+frontend: ExtJS
+ide: 
+category: amp網站
+description: 這是一個使用了ExtJS預先設計了開發FrameWork，提供了更模組化的方式來開發，讓原本在ERP系統常用的單檔與一堆多檔維護，可以有更好的實作效率。
 
 ---

@@ -1,16 +1,20 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: PDM系統WinForm翻Web
+subtitle: 支援一PDM系統公司將原有的Winform系統改為Web界面
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
-youtube:
+date: 2016-03-03
+img: A100301.png
+thumbnail: A100301.png
+youtube: dQmTFlRYadI
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: 2008
+client: 某PDM公司
+lang: C#
+server: ASP.NET
+db: SQL Server
+frontend: ExtJS 
+category: ASP.NET網站
+description: 這是一個將原本用Delphi開發的Winform架構的Client-Server程式翻成Web介面，但又需要能保有WinForm操作習慣的設計，使用了ExtJS搭配AJAX呼叫後端的C# ASP程式，達成幾乎一模一樣的功能架構。
 
 ---

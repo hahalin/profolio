@@ -23,12 +23,15 @@
                         <h4>{{ post.title }}</h4>
                         <p>
                             <span class="label label-danger">{{ post.lang }}</span>
-                            <span class="label label-info">{{ post.server }}</span>
+                            {% if post.server %}
+                                <span class="label label-info">{{ post.server }}</span>
+                            {% endif %}
                             {% if post.db %}
                                 <span class="label label-default">{{ post.db }}</span>
                             {% endif %}
-                            
-                            <span class="label label-success">{{ post.frontend }}</span>
+                            {% if post.frontend %}
+                                <span class="label label-success">{{ post.frontend }}</span>
+                            {% endif %}
                         </p>
                        
 

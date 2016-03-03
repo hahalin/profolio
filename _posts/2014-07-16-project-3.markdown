@@ -1,15 +1,19 @@
 ---
-title: Golden
-subtitle: Website Design
+title: C#元件設計
+subtitle: 二維折線圖元件擴充修改
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+date: 2016-03-03
+img: B100101.png
+thumbnail: B100101.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: 2008
+client: 台中工業區某公司
+lang: C#
+server: Component
+db: 
+frontend:  
+category: WinForm Component
+description: 客戶的需求是要在同一個二維折線圖配置多個不同單位規格的座標系，左右上下都要拿來運用配置Axis，此功能修改自<a target=_blank href="http://zedgraph.sourceforge.net/samples.html">ZedGraph</a>。
 
 ---
