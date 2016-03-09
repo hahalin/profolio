@@ -17,6 +17,10 @@ gems: [Liquid]
 
 # Team names, titles and social links
 people:
+- name: Frank License
+  pic: franklin
+  position: 專案工程師
+  social:
 - name: Kay Garland
   pic: 1
   position: Lead Designer
