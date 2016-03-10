@@ -24,7 +24,7 @@ people:
 
 - name: Frank Lin
   pic: franklin
-  position: 專案規劃工程師
+  position: 專案規劃與開發
   social:
     - title: envelope
       url:  hahalin@gmail.com
@@ -33,7 +33,7 @@ people:
 
 - name: Wiki Wu
   pic: avatarm
-  position: 專案工程師
+  position: 專案開發
   # social:
   #   - title: envelope 
   #     url: #
