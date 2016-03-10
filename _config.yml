@@ -2,8 +2,8 @@ url: https://hahalin.github.io
 baseurl: /profolio/
 local: true
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: BuddaHeart Studio
+email: hahalin@gmail
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -21,16 +21,16 @@ people:
   pic: franklin
   position: 專案工程師
   social:
-# - name: Kay Garland
-#   pic: 1
-#   position: Lead Designer
-#   social:
-#     - title: twitter
-#       url: #
-#     - title: facebook
-#       url: #
-#     - title: stack-overflow
-#       url: #
+      title: email
+      url : hahalin@gmail.com
+      title : line:hahalin168
+      url: #
+- name: Wiki Wu
+  pic: avatarm
+  position: 專案工程師
+  social:
+    - title: 
+      url: #
 
 # - name: Larry Parker
 #   pic: 2
