@@ -17,14 +17,20 @@ gems: [Liquid]
 
 # Team names, titles and social links
 people:
+
+- name: Jason Liao
+  pic: avatarm
+  position: 專案經理
+
 - name: Frank Lin
   pic: franklin
-  position: 專案工程師
+  position: 專案規劃工程師
   social:
     - title: envelope
       url:  hahalin@gmail.com
     - title: skype
       url:  skype:hahalin2002@hotmail.com?call
+
 - name: Wiki Wu
   pic: avatarm
   position: 專案工程師
