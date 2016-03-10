@@ -21,7 +21,7 @@ people:
   pic: franklin
   position: 專案工程師
   social:
-      title: email
+      title: envelope
       url : hahalin@gmail.com
       title : line:hahalin168
       url: #
@@ -29,7 +29,7 @@ people:
   pic: avatarm
   position: 專案工程師
   social:
-    - title: 
+    - title: envelope 
       url: #
 
 # - name: Larry Parker
