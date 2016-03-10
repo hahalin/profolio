@@ -22,13 +22,15 @@ people:
   position: 專案工程師
   social:
     - title: envelope
-      url :  hahalin@gmail.com
+      url:  hahalin@gmail.com
+    - title: skype
+      url:  skype:hahalin2002@hotmail.com?call
 - name: Wiki Wu
   pic: avatarm
   position: 專案工程師
-  social:
-    - title: envelope 
-      url: #
+  # social:
+  #   - title: envelope 
+  #     url: #
 
 # - name: Larry Parker
 #   pic: 2
