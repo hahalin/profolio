@@ -21,10 +21,8 @@ people:
   pic: franklin
   position: 專案工程師
   social:
-      title: envelope
+    - title: envelope
       url : hahalin@gmail.com
-      title : line:hahalin168
-      url: #
 - name: Wiki Wu
   pic: avatarm
   position: 專案工程師
