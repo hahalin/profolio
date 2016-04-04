@@ -18,9 +18,9 @@ gems: [Liquid]
 # Team names, titles and social links
 people:
 
-- name: Jason Liao
-  pic: avatarm
-  position: 專案經理
+#- name: Jason Liao
+#  pic: avatarm
+#  position: 專案經理
 
 - name: Frank Lin
   pic: franklin2
