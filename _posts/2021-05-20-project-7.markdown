@@ -1,0 +1,18 @@
+---
+title: 塑膠射出機現場資訊收集系統
+subtitle: 平板APP
+layout: default
+modal-id: 7
+date: 2019-05-01
+img: 
+thumbnail: SPCA02.JPG
+alt: image-alt
+project-date:  2012
+client: 中華塑膠
+category: APP Development
+lang: [C#]
+server: IIS
+frontend: React Native
+ide: 
+category: ReactNative APP
+description: 塑膠射出機操作人員透過平板點擊按鈕後及時送到後端資料庫紀錄目前異常，後端API紀錄後並提供良率分析介面供管理者查詢。
