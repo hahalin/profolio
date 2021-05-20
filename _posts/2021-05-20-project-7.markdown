@@ -16,3 +16,6 @@ frontend: React Native
 ide: 
 category: ReactNative APP
 description: 塑膠射出機操作人員透過平板點擊按鈕後及時送到後端資料庫紀錄目前異常，後端API紀錄後並提供良率分析介面供管理者查詢。
+
+---
+
