@@ -5,7 +5,7 @@ layout: default
 modal-id: 7
 date: 2019-05-01
 img: SPCA02.JPG
-thumbnail: SPCA02.JPG
+thumbnail: SPCA01.JPG
 alt: image-alt
 project-date:  2012
 client: 中華塑膠
